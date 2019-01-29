@@ -9,7 +9,7 @@
 	],
 "creatorBuild": "26680",
 "files": {
-	"\/orbit-1.scss": {
+	"\/orbit.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -17,72 +17,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/Users\/Riley\/Sites\/htdocs\/orbit-theme-bs4\/orbit-theme-git\/assets\/css\/orbit-1.css",
-		"oF": 6,
-		"oS": 1,
-		"uL": 1
-		},
-	"\/orbit-2.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/Users\/Riley\/Sites\/htdocs\/orbit-theme-bs4\/orbit-theme-git\/assets\/css\/orbit-2.css",
-		"oF": 6,
-		"oS": 1,
-		"uL": 1
-		},
-	"\/orbit-3.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/Users\/Riley\/Sites\/htdocs\/orbit-theme-bs4\/orbit-theme-git\/assets\/css\/orbit-3.css",
-		"oF": 6,
-		"oS": 1,
-		"uL": 1
-		},
-	"\/orbit-4.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/Users\/Riley\/Sites\/htdocs\/orbit-theme-bs4\/orbit-theme-git\/assets\/css\/orbit-4.css",
-		"oF": 6,
-		"oS": 1,
-		"uL": 1
-		},
-	"\/orbit-5.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/Users\/Riley\/Sites\/htdocs\/orbit-theme-bs4\/orbit-theme-git\/assets\/css\/orbit-5.css",
-		"oF": 6,
-		"oS": 1,
-		"uL": 1
-		},
-	"\/orbit-6.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/Users\/Riley\/Sites\/htdocs\/orbit-theme-bs4\/orbit-theme-git\/assets\/css\/orbit-6.css",
+		"oAP": "\/orbit.css",
 		"oF": 6,
 		"oS": 1,
 		"uL": 1

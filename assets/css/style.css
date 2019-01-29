@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #3d884d;
+  color: #2e4049;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -30,7 +30,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #25532f;
+  color: #10171a;
 }
 
 a:focus {
@@ -42,7 +42,7 @@ p {
 }
 
 .wrapper {
-  background: #5BB66F;
+  background: #4B6A78;
   max-width: 960px;
   margin: 0 auto;
   margin-top: 30px;
@@ -53,7 +53,7 @@ p {
 }
 
 .sidebar-wrapper {
-  background: #5BB66F;
+  background: #4B6A78;
   position: absolute;
   right: 0;
   width: 240px;
@@ -188,7 +188,7 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #3d884d;
+  color: #2e4049;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -208,7 +208,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #3d884d;
+  background: #2e4049;
   text-align: center;
   font-size: 16px;
   position: relative;
@@ -294,7 +294,7 @@ p {
 }
 
 .skillset .theme-progress-bar {
-  background: #7ec68e;
+  background: #5f8697;
 }
 
 .footer {
@@ -337,4 +337,15 @@ p {
     width: 30%;
     margin-bottom: 0;
   }
+}
+
+#profile {
+  max-width: 125px;
+  max-height: 125px;
+  width: auto;
+  height: auto;
+}
+
+#name {
+  font-size: 23px;
 }
