@@ -1,4 +1,5 @@
 /*! 
+ * Designed with  by Xiaoying Riley for developers
  * Template Name: Orbit - Bootstrap 4 Resume/CV Template for Developers
  * Version: 2.0
  * Author: Xiaoying Riley
@@ -7,11 +8,12 @@
  * License: Creative Commons Attribution 3.0 License
  * Website: http://themes.3rdwavemedia.com/
 */
+
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #545E6C;
-  background: #f5f5f5;
-  font-size: 14px;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+  color: #24292E;
+  background: #F6F8FA;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -21,16 +23,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #2e4049;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
+  color: #404448;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #10171a;
+  color: #24292E;
 }
 
 a:focus {
@@ -42,7 +40,7 @@ p {
 }
 
 .wrapper {
-  background: #4B6A78;
+  background: #24292E;
   max-width: 960px;
   margin: 0 auto;
   margin-top: 30px;
@@ -53,7 +51,7 @@ p {
 }
 
 .sidebar-wrapper {
-  background: #4B6A78;
+  background: #24292E;
   position: absolute;
   right: 0;
   width: 240px;
@@ -66,9 +64,25 @@ p {
   color: #fff;
 }
 
+
+
+
+
+/*
+    --
+  original 4B6A78
+  progress 5f8697
+    --
+github #24292E
+claro #404448
+*/
+
+
+
+
 .sidebar-wrapper .profile-container {
   padding: 30px;
-  background: rgba(0, 0, 0, 0.2);
+  background: #404448;
   text-align: center;
   color: #fff;
 }
@@ -82,7 +96,7 @@ p {
 
 .sidebar-wrapper .tagline {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 0;
@@ -94,7 +108,7 @@ p {
 
 .sidebar-wrapper .contact-list .svg-inline--fa {
   margin-right: 5px;
-  font-size: 18px;
+  font-size: 20px;
   vertical-align: middle;
 }
 
@@ -107,7 +121,7 @@ p {
 }
 
 .sidebar-wrapper .contact-list .email .svg-inline--fa {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .sidebar-wrapper .container-block {
@@ -116,14 +130,14 @@ p {
 
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 15px;
 }
 
 .sidebar-wrapper .degree {
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 0;
   margin-bottom: 5px;
 }
@@ -141,7 +155,7 @@ p {
   font-weight: 500;
   margin-bottom: 0px;
   margin-top: 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .sidebar-wrapper .education-container .time {
@@ -188,7 +202,7 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #2e4049;
+  color: #404448;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -208,17 +222,20 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #2e4049;
+  background: #404448;
   text-align: center;
   font-size: 16px;
   position: relative;
-  top: -8px;
+  top: -6px;
 }
 
 .main-wrapper .section-title .icon-holder .svg-inline--fa {
   font-size: 14px;
   margin-top: 6px;
 }
+
+i .section-title .fas { top: -160px; } 
+i .section-title .fab { top: -16px; } 
 
 .main-wrapper .section {
   margin-bottom: 60px;
@@ -235,7 +252,7 @@ p {
 }
 
 .main-wrapper .job-title {
-  color: #3F4650;
+  color: #24292E;
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 0;
@@ -246,12 +263,12 @@ p {
   position: absolute;
   right: 0;
   top: 0;
-  color: #97AAC3;
+  color: 404448;
 }
 
 .main-wrapper .company {
   margin-bottom: 10px;
-  color: #97AAC3;
+  color: 404448;
 }
 
 .main-wrapper .project-title {
@@ -294,22 +311,18 @@ p {
 }
 
 .skillset .theme-progress-bar {
-  background: #5f8697;
+  background: #24292E;
 }
 
 .footer {
   padding: 30px;
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
 .footer .copyright {
   line-height: 1.6;
   color: #545E6C;
   font-size: 13px;
-}
-
-.footer .fa-heart {
-  color: #fb866a;
 }
 
 @media (max-width: 767.98px) {
@@ -349,3 +362,6 @@ p {
 #name {
   font-size: 23px;
 }
+
+.fas { padding: 0 5px 0 0; }
+.fab { padding: 0 5px 0 0; }

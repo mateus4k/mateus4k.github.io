@@ -11,9 +11,12 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/css/bootstrap.css">   
     <link id="theme-style" rel="stylesheet" href="assets/css/style.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.7.0/js/all.js" integrity="sha384-qD/MNBVMm3hVYCbRTSOW130+CWeRIKbpot9/gR1BHkd7sIct4QKhT1hOPd+2hO8K" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.js""></script>
+    <script src="assets/js/bootstrap.js""></script>
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
 </head> 
-
 <body>
     <div class="wrapper">
         <div class="sidebar-wrapper">
@@ -25,10 +28,9 @@
             
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
-                    <li class="email"><i class="fas fa-envelope"></i><a href="mailto: mateus4k@protonmail.ch">mateus4k@protonmail.ch</a></li>
-                    <li class="website"><i class="fas fa-globe"></i><a href="https://mateus4k.github.io" target="_blank">mateus4k.github.io</a></li>
-                    <li class="linkedin"><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/mateus4k" target="_blank">mateus4k</a></li>
-                    <li class="github"><i class="fab fa-github"></i><a href="https://github.com/mateus4k" target="_blank">mateus4k</a></li>
+                    <li><i class="fas fa-envelope"></i><a href="mailto: mateus4k@pm.me">mateus4k@pm.me</a></li>
+                    <li><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/mateus4k" target="_blank">mateus4k</a></li>
+                    <li><i class="fab fa-github"></i><a href="https://github.com/mateus4k" target="_blank">mateus4k</a></li>
                 </ul>
             </div>
             <div class="education-container container-block" style="margin-top: -25px;">
@@ -45,40 +47,34 @@
                 </div>
             </div>
             
-            <div class="languages-container container-block" style="margin-top: -10px;">
+            <div class="languages-container container-block">
                 <h2 class="container-block-title">Idiomas</h2>
+                <ul class="list-unstyled contact-list">
+                    <li><i class="fas fa-globe-americas"></i>Português <span class="lang-desc">(Nativo)</span></li>
+                    <li><i class="fas fa-globe-europe"></i>Inglês <span class="lang-desc">(Intermediário)</span></li>
+                    <li><i class="fas fa-globe-asia"></i>Espanhol <span class="lang-desc">(Intermediário)</span></li>
+                </ul>
+            </div>
+                        
+            <div class="contact-container interests-container container-block">
+                <h2 class="container-block-title">Interesses</h2>
                 <ul class="list-unstyled interests-list">
-                    <li>Português <span class="lang-desc">(Nativo)</span></li>
-                    <li>Inglês <span class="lang-desc">(Intermediário)</span></li>
-                    <li>Espanhol <span class="lang-desc">(Intermediário)</span></li>
+                    <li><i class="fas fa-bible"></i>Teologia</li>
+                    <li><i class="fas fa-motorcycle"></i></i>Motociclismo</li>
+                    <li><i class="fas fa-gamepad"></i>Games</li>
                 </ul>
             </div>
             
-            <!-- <div class="interests-container container-block">
-                <h2 class="container-block-title">Interests</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>Climbing</li>
-                    <li>Snowboarding</li>
-                    <li>Cooking</li>
-                </ul>
-            </div> -->
-            
         </div>
         
-
-
-        <h1 class="text-light bg-gradient-warning">Em desenvolvimento...</h1>
-
-
-        <!--
-        
+        <!-- <h1 class="text-light bg-gradient-warning">Em desenvolvimento...</h1> -->
 
         <div class="main-wrapper">
             
             <section class="section summary-section">
                 <h2 class="section-title"><span class="icon-holder"><i class="fas fa-user"></i></span>Perfil de Carreira</h2>
                 <div class="summary">
-                    <p>Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit. You can <a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/" target="_blank">download this free resume/CV template here</a>. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p>
+                    <p>Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit. You can <a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/" target="_blank">download this free resume/CV template here</a>.</p>
                 </div>
             </section>
             
@@ -91,7 +87,7 @@
                             <h3 class="job-title">Desenvolvedor WordPress</h3>
                             <div class="time">2019 - Presente</div>
                         </div>
-                        <div class="company"><a href="https://github.com/kiuara-team" target="_blank">Kiuara Team</div></a>
+                        <div class="company"><a href="https://github.com/kiuara" target="_blank">Kiuara Team</div></a>
                     </div>
                     <div class="details">
                         <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</p>  
@@ -128,7 +124,7 @@
                     <span class="project-tagline">Projeto open source em Shell Script para facilitar a compilação e execução de arquivos .cpp</span>
                 </div>
                 <div class="item">
-                    <span class="project-title"><a href="#" target="_blank">Fiver5</a></span> - <span class="project-tagline">Em desenvolvimento.</span>
+                    <span class="project-title"><a href="https://fiver5gg.com" target="_blank">Fiver5</a></span> - <span class="project-tagline">Em desenvolvimento.</span>
                 </div>
             </section>
             
@@ -179,15 +175,12 @@
                     
                 </div>  
             </section>
- -->           
         </div>
     </div>
  
-    <footer class="footer">
-        <div class="text-center">
-                <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-        </div>
-    </footer>
+    <footer class="footer"><div class="text-center">
+        <!-- <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small> -->
+    </div></footer>
         
 </body>
 </html> 
