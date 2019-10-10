@@ -10,9 +10,12 @@
 */
 
 :root {
-  --lightGrey: #404448;
-  --darkGrey: #24292e;
-  --iceWhite: #f6f8fa;
+  --themeColor: #404448;
+  --nameColor: #f8f8f8;
+  --descriptionColor: #ccc;
+  --black: #24292e;
+  --grey: #555;
+  --iceWhite: #f5f5f5;
 }
 
 * {
@@ -24,9 +27,9 @@
 
 html,
 body {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: var(--darkGrey);
+  color: var(--black);
   background: var(--iceWhite);
 }
 
@@ -40,12 +43,12 @@ h6 {
 }
 
 a {
-  color: var(--lightGrey);
+  color: var(--black);
 }
 
 a:hover {
   text-decoration: none;
-  color: var(--darkGrey);
+  color: var(--black);
 }
 
 a:focus {
@@ -57,7 +60,7 @@ p {
 }
 
 .wrapper {
-  background: var(--darkGrey);
+  background: var(--black);
   max-width: 960px;
   margin: 30px auto;
   position: relative;
@@ -67,12 +70,11 @@ p {
 }
 
 .sidebar-wrapper {
-  background: var(--darkGrey);
+  background: var(--black);
   position: absolute;
   right: 0;
   width: 240px;
   height: 100%;
-  min-height: 800px;
   color: white;
 }
 
@@ -82,9 +84,9 @@ p {
 
 .sidebar-wrapper .profile-container {
   padding: 30px;
-  background: var(--lightGrey);
+  background: var(--themeColor);
   text-align: center;
-  color: white;
+  color: var(--nameColor);
 }
 
 .sidebar-wrapper .name {
@@ -95,11 +97,11 @@ p {
 }
 
 .sidebar-wrapper .tagline {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--descriptionColor);
   font-size: 18px;
   font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0 auto;
+  line-height: 10px;
 }
 
 .sidebar-wrapper .profile {
@@ -147,13 +149,13 @@ p {
 }
 
 .sidebar-wrapper .education-container .meta {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--iceWhite);
   font-weight: 500;
   font-size: 16px;
 }
 
 .sidebar-wrapper .education-container .time {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--iceWhite);
   font-weight: 500;
   margin-bottom: 0px;
 }
@@ -164,7 +166,7 @@ p {
 }
 
 .sidebar-wrapper .languages-container .lang-desc {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--iceWhite);
 }
 
 .sidebar-wrapper .languages-list {
@@ -205,7 +207,7 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: var(--lightGrey);
+  color: var(--black);
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -225,7 +227,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: var(--lightGrey);
+  background: var(--black);
   text-align: center;
   font-size: 16px;
   position: relative;
@@ -266,7 +268,7 @@ i .section-title .fab {
 }
 
 .main-wrapper .job-title {
-  color: var(--darkGrey);
+  color: var(--black);
   font-size: 16px;
   margin-top: 10px;
   font-weight: 400;
@@ -276,12 +278,12 @@ i .section-title .fab {
   position: absolute;
   right: 0;
   top: 0;
-  color: var(--lightGrey);
+  color: var(--grey);
 }
 
 .main-wrapper .company a {
   margin-bottom: 10px;
-  color: var(--lightGrey);
+  color: var(--black);
   font-size: 18px;
   font-weight: bold;
 }
@@ -300,7 +302,7 @@ i .section-title .fab {
 }
 
 .main-wrapper .projects-section .intro a {
-  color: var(--lightGrey);
+  color: var(--grey);
   font-weight: 600;
   text-decoration: none;
 }
