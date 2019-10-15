@@ -127,21 +127,21 @@ p {
 }
 
 .sidebar-wrapper .container-block {
-  padding: 30px;
+  padding: 15px 30px;
 }
 
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
-  margin-top: 0;
-  margin-bottom: 15px;
+  margin: 3px 0;
 }
 
 .sidebar-wrapper .degree {
   font-size: 16px;
+  font-weight: 600;
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 .sidebar-wrapper .education-container {
   margin-top: -25px;
@@ -200,7 +200,7 @@ p {
 }
 
 .main-wrapper .summary p {
-  line-height: 35px;
+  line-height: 24px;
 }
 
 .main-wrapper .section-title {
@@ -253,7 +253,7 @@ i .section-title .fab {
 }
 
 .main-wrapper .section {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .main-wrapper .upper-row {
@@ -269,8 +269,8 @@ i .section-title .fab {
 
 .main-wrapper .job-title {
   color: var(--black);
-  font-size: 16px;
-  margin-top: 10px;
+  font-size: 15px;
+  margin-top: 4px;
   font-weight: 400;
 }
 
@@ -278,6 +278,10 @@ i .section-title .fab {
   position: absolute;
   right: 0;
   top: 0;
+}
+
+.time {
+  font-size: 14px;
   color: var(--grey);
 }
 
@@ -364,4 +368,8 @@ i .section-title .fab {
 }
 .fab {
   padding: 0 5px 0 0;
+}
+
+.job-description ul {
+  margin-left: -10px;
 }
