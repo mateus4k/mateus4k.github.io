@@ -11,11 +11,11 @@
 
 :root {
   --themeColor: #404448;
-  --nameColor: #f8f8f8;
+  --nameColor: #fafbfc;
   --descriptionColor: #ccc;
   --black: #24292e;
   --grey: #555;
-  --iceWhite: #f5f5f5;
+  --iceWhite: #f6f8fa;
 }
 
 * {
@@ -27,7 +27,7 @@
 
 html,
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: var(--black);
   background: var(--iceWhite);
@@ -199,8 +199,8 @@ p {
   padding-right: 300px;
 }
 
-.main-wrapper .summary p {
-  line-height: 24px;
+.main-wrapper .summary ul {
+  margin-left: -10px;
 }
 
 .main-wrapper .section-title {
