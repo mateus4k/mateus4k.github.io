@@ -1,0 +1,35 @@
+baseurl = "https://mateus4k.github.io"
+languageCode = "en-us"
+paginate = 8
+theme = "terminal"
+
+[params]
+centerTheme = true
+contentTypeName = "posts"
+fullWidthTheme = false
+readingTime = true
+showLanguageSelector = false
+showLastUpdated = false
+showMenuItems = 2
+staticDir = ["static"]
+themeColor = "blue"
+
+[languages]
+[languages.en]
+copyright = ""
+keywords = ""
+menuMore = "Show more"
+readMore = "Read more"
+readOtherPosts = "Read other posts"
+subtitle = "Backend engineering"
+title = "mateus4k"
+
+[languages.en.params.logo]
+logoHomeLink = "/"
+logoText = "mateus4k"
+
+[languages.en.menu]
+[[languages.en.menu.main]]
+identifier = "about"
+name = "About"
+url = "/about"
