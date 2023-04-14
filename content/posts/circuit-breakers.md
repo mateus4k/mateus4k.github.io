@@ -31,7 +31,7 @@ One of the most important things about circuit breakers is understanding their s
 
 ### Fallbacks
 
-If you are building an e-commerce like John and your call to the personalized product recommendations service fails for some reason, you could use a fallback response to provide the most popular products instead. This is great for not letting the customer down, even if your API response isn't exactly what you expect, there are still product recommendations there.
+If you are building an e-commerce like John and your call to the personalized product recommendations service fails for some reason, you can use an alternative response with the most popular products or with recommendations stored in a stale cache. This is great for not letting the customer down, even if your API response isn't exactly what you'd like, there are still products in there.
 
 ## Implementation
 
