@@ -11,8 +11,9 @@ readingTime = true
 showLanguageSelector = false
 showLastUpdated = false
 showMenuItems = 2
+Toc = true
 staticDir = ["static"]
-themeColor = "blue"
+themeColor = "orange"
 
 [languages]
 [languages.en]
@@ -22,13 +23,17 @@ menuMore = "Show more"
 readMore = "Read more"
 readOtherPosts = "Read other posts"
 subtitle = "Backend engineering"
-title = "mateus4k"
+title = "Mateus4k"
 
 [languages.en.params.logo]
 logoHomeLink = "/"
 logoText = "mateus4k"
 
 [languages.en.menu]
+[[languages.en.menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/"
 [[languages.en.menu.main]]
 identifier = "about"
 name = "About"
