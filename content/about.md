@@ -1,15 +1,10 @@
 +++
 title = "About"
-date = "2022-08-09"
+date = "2023-04-14"
 author = "Mateus"
+Toc = false
 +++
 
 # Hi there
 
 My name is Mateus.
-
-```go
-func main () {
-    fmt.println("that's all!")
-}
-```
