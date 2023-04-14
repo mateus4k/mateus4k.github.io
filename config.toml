@@ -1,7 +1,6 @@
 baseurl = "https://mateus4k.github.io"
 languageCode = "en-us"
 paginate = 8
-theme = "terminal"
 
 [params]
 centerTheme = true
