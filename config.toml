@@ -28,15 +28,15 @@ title = "Mateus4k"
 logoHomeLink = "/"
 logoText = "mateus4k"
 
-[languages.en.menu]
-[[languages.en.menu.main]]
-identifier = "posts"
-name = "Posts"
-url = "/"
-[[languages.en.menu.main]]
-identifier = "about"
-name = "About"
-url = "/about"
+# [languages.en.menu]
+# [[languages.en.menu.main]]
+# identifier = "posts"
+# name = "Posts"
+# url = "/"
+# [[languages.en.menu.main]]
+# identifier = "about"
+# name = "About"
+# url = "/about"
 
 [module]
 [[module.imports]]
