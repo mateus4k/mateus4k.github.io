@@ -1,5 +1,5 @@
 +++
-title = "Circuit Breakers - The Complete Guide"
+title = "Circuit Breakers: Complete Guide"
 date = "2023-04-14"
 author = "Mateus Sampaio"
 description = "The circuit breaker is a microservices design pattern that improves system resilience by isolating failing services. It wraps an external service call and monitors recent failures. When the number of failures exceeds a threshold, the circuit breaker trips and gives the external service time to recover its health. This prevents cascading failures and increases overall system reliability."
