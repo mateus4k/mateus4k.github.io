@@ -9,9 +9,3 @@ Link: [mateus4k.github.io](https://mateus4k.github.io/)
 ```sh
 hugo server
 ```
-
-### Update theme
-
-```sh
-git submodule update --remote
-```
