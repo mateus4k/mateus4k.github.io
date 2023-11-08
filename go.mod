@@ -1,5 +1,7 @@
 module mateus4k
 
-go 1.19
+go 1.21
 
-require github.com/panr/hugo-theme-terminal/v3 v3.1.2 // indirect
+require (
+	github.com/luizdepra/hugo-coder v0.0.0-20230824200107-e35f1da207cb // indirect
+)

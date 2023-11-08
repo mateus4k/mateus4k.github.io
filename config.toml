@@ -1,43 +1,48 @@
 baseurl = "https://mateus4k.github.io"
-languageCode = "en-us"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Mateus4k"
 paginate = 8
+enableEmoji = true
+
+[markup.highlight]
+style = "github-dark"
 
 [params]
-centerTheme = true
-contentTypeName = "posts"
-fullWidthTheme = false
-readingTime = true
-showLanguageSelector = false
-showLastUpdated = false
-showMenuItems = 2
-Toc = true
+author = "Mateus"
+info = "Backend engineering"
+description = "Mateus's personal blog"
+keywords = "blog,backend,developer"
+colorScheme = "dark"
+since = 2023
+hideColorSchemeToggle = true
+maxSeeAlsoItems = 4
 staticDir = ["static"]
-themeColor = "orange"
 
-[languages]
-[languages.en]
-copyright = ""
-keywords = ""
-menuMore = "Show more"
-readMore = "Read more"
-readOtherPosts = "Read other posts"
-subtitle = "Backend engineering"
-title = "Mateus4k"
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github"
+weight = 1
+url = "https://github.com/mateus4k"
 
-[languages.en.params.logo]
-logoHomeLink = "/"
-logoText = "mateus4k"
+# https://comments.app/
+[params.telegram]
+siteID = "9b-TC4ZR"
+limit = "4"
+color = "42A5F5"
+outlined = "1"
+dark = "1"
 
-# [languages.en.menu]
-# [[languages.en.menu.main]]
-# identifier = "posts"
-# name = "Posts"
-# url = "/"
-# [[languages.en.menu.main]]
-# identifier = "about"
+# Menu links
+[[menu.main]]
+name = "Blog"
+weight = 1
+url = "posts/"
+# [[menu.main]]
 # name = "About"
-# url = "/about"
+# weight = 2
+# url = "/"
 
 [module]
 [[module.imports]]
-path = 'github.com/panr/hugo-theme-terminal/v3'
+path = 'github.com/luizdepra/hugo-coder'
