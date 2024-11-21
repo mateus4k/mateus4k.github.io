@@ -5,8 +5,6 @@ author = "Mateus Sampaio"
 description = "Databases that follow the ACID principles ensure that each transaction only completes if it leaves the database in a valid state."
 +++
 
-# Database ACID Principles: Consistency
-
 Picture, for instance, two people in a kitchen preparing sandwiches. At the same moment, both reach for a piece of cheese. One of them could use all the cheese before the other finishes, leaving the second person without enough to complete their sandwich.
 
 In databases, similar issues arise with concurrency when multiple transactions try to access or modify the same data simultaneously, leading to conflicts and an inconsistent state. This can be prevented by enforcing integrity rules such as locks or versioning, which ensure that every transaction respects the current state of the data and adheres to the system's rules.

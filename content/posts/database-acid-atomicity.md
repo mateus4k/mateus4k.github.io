@@ -2,10 +2,8 @@
 title = "Database ACID Principles: Atomicity"
 date = "2024-11-21"
 author = "Mateus Sampaio"
-description = "This principle is "all or nothing". When someone transfers money to another individual, for example, the transaction is either properly completed or not; even in the event of failures such as a database crash, there is no partial completion."
+description = "This principle is 'all or nothing'. When someone transfers money to another individual, for example, the transaction is either properly completed or not; even in the event of failures such as a database crash, there is no partial completion."
 +++
-
-# Database ACID Principles: Atomicity
 
 Consider this situation: would you also throw away your appetizer and main course if your dessert fell off the plate? Thanks to **atomicity**, one of a transaction's fundamental characteristics, a relational database works almost exactly like that.
 
