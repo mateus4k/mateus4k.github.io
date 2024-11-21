@@ -2,8 +2,10 @@ baseurl = "https://mateus4k.github.io"
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "Mateus4k"
-paginate = 8
 enableEmoji = true
+
+[pagination]
+pagerSize = 10
 
 [markup.highlight]
 style = "github-dark"
@@ -38,10 +40,6 @@ dark = "1"
 name = "Blog"
 weight = 1
 url = "posts/"
-# [[menu.main]]
-# name = "About"
-# weight = 2
-# url = "/"
 
 [module]
 [[module.imports]]
