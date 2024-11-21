@@ -21,19 +21,19 @@ hideColorSchemeToggle = true
 maxSeeAlsoItems = 4
 staticDir = ["static"]
 
-[[params.social]]
-name = "Github"
-icon = "fa fa-2x fa-github"
-weight = 1
-url = "https://github.com/mateus4k"
+# [[params.social]]
+# name = "Github"
+# icon = "fa fa-2x fa-github"
+# weight = 1
+# url = "https://github.com/mateus4k"
 
 # https://comments.app/
-[params.telegram]
-siteID = "9b-TC4ZR"
-limit = "4"
-color = "42A5F5"
-outlined = "1"
-dark = "1"
+# [params.telegram]
+# siteID = "9b-TC4ZR"
+# limit = "4"
+# color = "42A5F5"
+# outlined = "1"
+# dark = "1"
 
 # Menu links
 [[menu.main]]
