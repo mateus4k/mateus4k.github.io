@@ -17,7 +17,7 @@ Imagine this situation: "John, a software engineer, worked within a large micros
 
 The circuit breaker pattern can **save your application's resilience** by detecting failing services and placing them in a kind of quarantine. The key is to wrap and monitor the service call. This allows us to trip the circuit breaker when the number of failures exceeds the thresholds, preventing cascading failures and giving the failing service time to recover, improving the overall reliability of the system. Therefore, this pattern is an essential tool for ensuring the resilience and availability of microservices-based systems.
 
-{{< figure src="/circuit-breaker-overview.png" position="center" caption="Circuit Breaker in action. Credits: https://github.com/Netflix/Hystrix/wiki" >}}
+{{<figure src="/circuit-breaker-overview.png" position="center" caption="Circuit Breaker in action. Credits: https://github.com/Netflix/Hystrix/wiki">}}
 
 ## Structure
 
