@@ -1,11 +1,13 @@
 +++
-title = "Node.js DOES NOT use a Thread Pool for All I/O"
-date = "2024-12-27"
+title = "Node.js DOES NOT run the Event Loop and V8 on separate threads"
+date = "2025-01-07"
 author = "Mateus Sampaio"
 +++
 
-One of the most common misconceptions on Node.js is that all input/output operations are performed using a thread pool, and that these threads are blocked while awaiting the completion of I/O. In practice, Node.js uses operating system features whenever possible to accomplish non-blocking input/output without the need for threads. For instance, the OS provides asynchronous system calls that do not require blocking threads for networking tasks like processing HTTP requests or reading from sockets.
+A prevalent misunderstanding regarding Node.js is that the event loop operates in a separate thread from the JavaScript engine (V8). In truth, both the execution of JavaScript and the event loop operate on the same thread. This common thread underpins the single-threaded, non-blocking structure of Node.js.
 
-However, there are cases where the OS does not provide an asynchronous API, such as certain file system operations on Unix. In these situations, Node.js uses a thread pool to handle the tasks in the background. This is also true for some DNS lookups and cryptographic operations, like generating random bytes or running the pbkdf2 algorithm. Think of it like a multitasking chef: Node uses the kitchen staff (OS APIs) for most tasks, but occasionally calls in extra help (the thread pool) when the kitchen tools aren’t enough.
+Think of it like a chef in a small kitchen. The chef (JavaScript) cooks one dish at a time but also checks orders, sets timers, and calls for ingredients (asynchronous I/O operations). It’s all done by the same person in the same space, with tasks coordinated efficiently to keep the kitchen (application) running smoothly.
 
-This balanced approach ensures high performance and scalability while maintaining Node.js’s event-driven architecture. It’s important to remember that Node.js is not just single-threaded or thread-pool-dependent—it strategically combines both to handle diverse workloads efficiently.
+{{<figure src="/nodejs-v8-thread-misconception.png" position="center" width="300">}}
+
+Node.js excels at handling asynchronous I/O, but blocking the thread with heavy computations or synchronous code can freeze the entire application. Both the event loop and JavaScript execution depend on this single thread, making it essential to write non-blocking code for optimal performance.
